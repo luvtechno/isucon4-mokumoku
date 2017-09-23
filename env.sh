@@ -19,5 +19,6 @@ export ISU4_DB_PORT=3306
 export ISU4_DB_USER=isucon
 export ISU4_DB_PASSWORD=isucon
 export ISU4_DB_NAME=isu4_qualifier
+export RACK_ENV=production
 
 exec $*
