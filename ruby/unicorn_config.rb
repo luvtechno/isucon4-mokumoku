@@ -1,2 +1,2 @@
-worker_processes 10
+worker_processes 15
 preload_app true
