@@ -2,7 +2,7 @@
 
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/go/bin:$PATH
-#export PATH=/home/isucon/.local/ruby/bin:$PATH
+export PATH=/home/isucon/.local/ruby/bin:$PATH
 export PATH=/home/isucon/.local/node/bin:$PATH
 export PATH=/home/isucon/.local/python/bin:$PATH
 export PATH=/home/isucon/.local/perl/bin:$PATH
@@ -11,9 +11,9 @@ export PATH=/home/isucon/.local/php/sbin:$PATH
 export GOPATH=/home/isucon/gocode
 [ ! -d $GOPATH/src ] && mkdir -p $GOPATH/src
 
-export RBENV_ROOT="/usr/local/rbenv"
-export PATH="${RBENV_ROOT}/bin:${PATH}"
-eval "$(rbenv init -)"
+# export RBENV_ROOT="/usr/local/rbenv"
+# export PATH="${RBENV_ROOT}/bin:${PATH}"
+# eval "$(rbenv init -)"
 
 export ISU4_SESSION_SECRET=27a4909d7cc3da7a5a07a925fbbb4d4e2b44db5b
 export ISU4_USER_LOCK_THRESHOLD=3
